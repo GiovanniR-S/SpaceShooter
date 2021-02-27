@@ -34,3 +34,21 @@ body{
     height: 30px;
 
 }
+
+.alien{
+    height: 60px;
+    width: 70px;
+    position: relative;
+}
+
+.alien-trasmition{
+    opacity: 1;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.dead-alien{
+    width: 60px;
+    height: 70px;
+    position: relative;
+    opacity: 0;
+}
