@@ -1,3 +1,8 @@
+@font-face{
+    font-family: "Gamer";
+    src: url("../fonts/Gamer.ttf");
+}
+
 body{
 
     height: 100vh;
@@ -36,17 +41,25 @@ body{
 }
 
 .game-instructions{
+
+    font-family: "Gamer";
+    font-size: 35px;
+
     position: relative;
     color: white;
-    left: 4rem;
+    left: 3rem;
     top: 0px;
 }
 
 .start{
+
+    font-family: "Gamer";
+    font-size: 50px;
+    
     position: relative;
     color: white;
     top: 9rem;
-    left: 15rem;
+    left: 12rem;
     cursor: pointer;
 }
 
