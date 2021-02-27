@@ -35,6 +35,21 @@ body{
 
 }
 
+.game-instructions{
+    position: relative;
+    color: white;
+    left: 4rem;
+    top: 0px;
+}
+
+.start{
+    position: relative;
+    color: white;
+    top: 9rem;
+    left: 15rem;
+    cursor: pointer;
+}
+
 .alien{
     height: 60px;
     width: 70px;
